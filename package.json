@@ -1,0 +1,26 @@
+{
+  "name": "passportjs-examples",
+  "version": "1.0.0",
+  "author": "Bonnie Schulkin",
+  "scripts": {
+    "preinstall": "cp /Users/bonnie/.eslintrc .",
+    "test": "export NODE_ENV=test && mocha"
+  },
+  "devDependencies": {
+    "ajv": "^5.2.2",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "passport": "^0.4.0",
+    "passport-auth0": "^0.6.1",
+    "passport-jwt": "^3.0.1",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4"
+  }
+}
