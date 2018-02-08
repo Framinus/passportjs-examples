@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "author": "Bonnie Schulkin",
   "scripts": {
-    "preinstall": "cp /Users/bonnie/.eslintrc .",
-    "test": "export NODE_ENV=test && mocha"
+    "start": "nodemon app.js"
   },
   "devDependencies": {
     "ajv": "^5.2.2",
@@ -15,8 +14,11 @@
     "eslint-plugin-react": "^7.3.0"
   },
   "dependencies": {
+    "dotenv": "^5.0.0",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "nodemon": "^1.14.12",
     "passport": "^0.4.0",
     "passport-auth0": "^0.6.1",
     "passport-jwt": "^3.0.1",
